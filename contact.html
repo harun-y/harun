@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="about.html">Über mich</a></li>
+            <li><a href="projects.html">Projekte</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Kontaktformular</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Senden</button>
+        </form>
+        <p id="response-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Harun Yildirim. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
